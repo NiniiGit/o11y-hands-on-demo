@@ -1,0 +1,20 @@
+receivers:
+  otlp:
+    protocols:
+      grpc:
+        endpoint: "0.0.0.0:4317"
+
+exporters:
+  debug:
+    verbosity: detailed
+  elasticsearch:
+    endpoints: ["http://elasticsearch:9200"]
+    metrics_index: "my-metrics-otel"
+    mapping:
+      mode: "ecs"
+
+service:
+  pipelines:
+    metrics:
+      receivers: [otlp]
+      exporters: [debug, elasticsearch]
