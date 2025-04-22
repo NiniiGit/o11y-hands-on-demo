@@ -1,7 +1,7 @@
 ## 🧪 Hands-on Demo Setup
 
 This repo accompanies the blog post:  
-👉 [Eliminating Observability Vendor Lock-in with OpenTelemetry](https://medium.com/@ninad-desai/eliminating-observability-vendor-lock-in-with-opentelemetry-a-hands-on-demo-4be6065e0210)
+👉 [Eliminating Observability Vendor Lock-in with OpenTelemetry](https://ninad-desai.medium.com/eliminating-observability-vendor-lock-in-with-opentelemetry-a-hands-on-demo-4be6065e0210)
 
 It demonstrates three approaches to instrumenting a Python app:
 
